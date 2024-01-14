@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/fontawesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Jiya's porrtfolio</title>
+    
+</head>
+<body>
+    <section class="container" id="myhome">
+        <nav>
+            <div class="logo">Portfolio <b>.</b></div>
+            <ul class="navItem">
+                <li>
+                    <a href="#myhome">Home</a>
+                    <a href="#myabout">About</a>
+                    <a href="#myskill">Skill</a>
+                    <a href="#feed">Blog</a>
+                </li>
+            </ul>
+            <div class="links">
+                <a href="https://www.linkedin.com/in/jiya-nagraj23/"><i class="fa fa-linkedin"></i></a>
+                <a href="https://mail.google.com/mail/u/0/#inbox"><i class="fa fa-envelope" ></i></a>
+                <a href="https://github.com/Jiyanagraj"><i class="fa fa-github"></i></a>
+            </div>
+        </nav>
+        <div class="wrapper">
+            <div class="cols cols0">
+                <span class="topline">Hello,<br> I am Jiya Nagraj</span>
+                <h1>And I'm a <br><span class="multiText"></span></h1>
+                <p>Self-motivated and hardworking fresher seeking for an opportunity to work in a challenging environment to prove my skills and utilize my knowledge & intelligence in the growth of the organization.</p>
+                <div class="btns">
+                    <button><a href="cv/Resume_Jiya Nagraj_Dec2023.pdf" download="Resume" >Download cv</a> <i class="fa fa-download"></i></button>
+                    <Button><a href="mailto:jiyanagraj23@gmail.com">Hire Me</a></Button>
+                </div>
+            </div>
+            <div class="cols cols1">
+                <div class="imgbox">
+                    <img src="assests/img2.png" id="splash" alt="">
+                    <img src="assests/m3.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="about" id="myabout">
+        <div class="about-img">
+            <img src="assests/m1.png" alt="">
+        </div>
+        <div class="about-content">
+            <h1 >About <span class="multiText">Me</span></h1>
+            <h3>Frontend Developer</h3>
+            <p>Passionate about web development and driven by a curiosity for innovation, I thrive on transforming ideas into dynamic digital experiences. With a solid foundation in Java and Python programming languages, I specialize in crafting efficient and usercentric solutions for the modern web. I'm not just confined to the web – I've recently ventured into the world of app development. Currently, I'm expanding my expertise into the exciting realms of AI and ML.</p>
+            <div class="btns rdm"><button > Read More</button></div>
+        </div>
+        
+        
+
+    </section>
+
+    <section class="skill" id="myskill">
+            <h1 class="title">My <span class="multiText">Skill</span> </h1>
+            <div class="row">
+                <div class="course-col">
+                    <h3>WEB DEVELOPER  <span class="multiText"><i class="fa fa-code"></i></span></h3>
+                    <p>Hey there! I'm a passionate web developer with a knack for turning ideas into interactive, user-friendly websites. Armed with a strong foundation in HTML, CSS, and JavaScript, I specialize in crafting seamless and visually appealing digital experiences.</p>
+                </div>
+                <div class="course-col">
+                    <h3>DESIGNER  <span class="multiText"><i class="fa fa-pen-ruler"></i></span></h3></h3>
+                    <p>A graphic designer on a mission to turn visions into visual masterpieces. With a keen eye for detail and a heart for creativity, I bring ideas to life through the power of design.</p>
+                </div>
+                <div class="course-col">
+                    <h3>GAME DEVELOPER <span class="multiText"><i class="fa fa-gamepad"></i></span></h3></i></h3>
+                    <p>I believe in the power of storytelling and player engagement. Each line of code, every pixel, and all the mechanics in my games are carefully curated to deliver an unforgettable adventure. From thrilling action to thought-provoking narratives, I strive to create games that leave a lasting impact.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="Blog" id="feed">
+        <div class="blog-content">
+            <h1>BLOG</h1>
+            <p>Dive into the vast world of web development languages, frameworks, and libraries. Explore the dynamic landscape, and stay updated on the latest tools. From front-end marvels like React and Vue to back-end giants like Node.js and Django, let's navigate the coding universe together!</p>
+                <h3>Leave a Feedback</h3>
+                <form class="comment-form">
+                    <input type="text" placeholder="Enter Name">
+                    <input type="email" name="" id="" placeholder="Enter Email">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Your comment"></textarea>
+                    <button type="submit" class="hero red-btn">POST COMMENT</button>
+                </form>
+            </div>
+        </div>
+        
+    </section>
+
+
+    <script src="https://unpkg.com/typed.js@2.0.132/dist/typed.umd.js"></script>
+    <script>
+        var typingEffect =new Typed(".multiText",{
+            strings : ["coder","Developer","designer"],
+            loop:true,
+            typeSpeed :100,
+            backSpeed :80,
+            backDelay :1500
+        })
+    </script>
+</body>
+</html>
